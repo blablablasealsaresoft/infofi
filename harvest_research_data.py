@@ -40,7 +40,7 @@ class PageData(BaseModel):
 
 async def main():
     # Manual profile path to avoid Windows asyncio subprocess issues with interactive profiler
-    profile_path = os.path.join(os.getcwd(), "browser_profile")
+    profile_path = os.path.join(os.getcwd(), "chrome_profile")
     os.makedirs(profile_path, exist_ok=True)
     print(f"Using persistent browser profile at: {profile_path}")
     

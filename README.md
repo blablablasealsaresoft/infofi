@@ -51,6 +51,12 @@ The goal of InfoFi is to be the single source of truth for on-chain and off-chai
     crawl4ai-setup
     ```
 
+4.  **Setup AI Model (Ollama)**:
+    Since this tool uses a local LLM for privacy and cost, you need [Ollama](https://ollama.com/) installed.
+    ```bash
+    ollama pull deepseek-r1
+    ```
+
 ## 🚦 Usage
 
 ### 1. Authenticate Social Layers
